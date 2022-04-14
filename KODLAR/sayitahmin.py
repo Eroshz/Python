@@ -1,8 +1,8 @@
 import random
 
-sayilar = (1,2,3,4,5,6,7,8,9,10)
-sayi = random.randint(1, 10)
+sayi = range(1,11)
 sayi_gir = int(input("Lütfen Bir Sayı Giriniz: "))
+
 
 
 if sayi_gir == sayi :
