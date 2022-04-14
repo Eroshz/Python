@@ -5,7 +5,6 @@ sayi = random.randint(1, 10)
 sayi_gir = int(input("Lütfen Bir Sayı Giriniz: "))
 
 
-
 if sayi_gir == sayi :
     print("✔️ Tebrikler")
 
