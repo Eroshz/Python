@@ -5,7 +5,7 @@ sayi2 = 20
 toplam = int(sayi1) + int(sayi2)
 
 print(toplam)
-#--------------------------------------------------------------------
+
 #ÇIKARMA
 sayi1 = 10
 sayi2 = 20
