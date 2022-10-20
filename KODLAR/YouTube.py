@@ -1,10 +1,13 @@
 from pytube import YouTube
 import time
 import youtube_dl
+import ctypes
+
+ctypes.windll.kernel32.SetConsoleTitleW("YouTube Downloader")
 
 print("                  ---> Video İndirme Programına Hoşgeldiniz <---")
 print("                                  made by Eroshz")
-time.sleep(2)
+time.sleep(1)
 
 islem_sec = int(input("Yapmak İstediğiniz İşlemi Seçin: \n1-) Video İndirici \n2-) MP3 İndirici \n (İşleminizi 1 veya 2 Olarak Girin) \n---> " ))
 islem = islem_sec
@@ -23,7 +26,6 @@ def mp3():
     print("Başarıyla İndirildi {}".format(filename))
 
 
-
 def mp4():
     link = input("İndirmek İstediğiniz Videonun Linkini Girin: \n---> ")
     yt = YouTube(link)
@@ -36,4 +38,5 @@ if islem_sec == 1:
     mp4()
 else:
     mp3()
+
 
