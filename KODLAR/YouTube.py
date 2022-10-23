@@ -38,5 +38,3 @@ if islem_sec == 1:
     mp4()
 else:
     mp3()
-
-
